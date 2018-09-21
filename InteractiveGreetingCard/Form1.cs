@@ -26,6 +26,8 @@ namespace InteractiveGreetingCard
 
         private void label1_Click(object sender, EventArgs e)
         {
+
+
             Graphics g = this.CreateGraphics();
             Pen drawPen = new Pen(Color.Black, 10);
             SolidBrush drawBrush = new SolidBrush(Color.White);
