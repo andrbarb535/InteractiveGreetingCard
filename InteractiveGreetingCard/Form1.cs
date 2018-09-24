@@ -37,6 +37,13 @@ namespace InteractiveGreetingCard
             int h = 10;
             int w = 10;
 
+            label1.Visible = true;
+            label1.Text = "ORION THE HUNTER";
+            label1.ForeColor = Color.White;
+            label1.BackColor = Color.Black;
+            label1.Font = new Font("Viner Hand ITC", 27, FontStyle.Bold);
+            label2.Visible = false;
+
             for (int i = 0; i <= 100; i++)
             {
                 int rx, ry;
@@ -72,7 +79,7 @@ namespace InteractiveGreetingCard
             g.FillEllipse(drawBrush, 570, 250, 10, 10);
             g.FillEllipse(drawBrush, 525, 325, 10, 10);
             //orion bow
-
+            
             for (float x = 600; x >= 450; x = x - 2)
             {
                 g.DrawEllipse(drawPen, x, 190, 10, 10);
@@ -112,7 +119,357 @@ namespace InteractiveGreetingCard
             g.DrawLine(drawPen2, 450, 190, 275, 200);
             //constelation left arm
 
+            Thread.Sleep(5000);
+
             Next.Visible = false;
+            label1.Visible = false;
+            this.Refresh();
+            //clear page
+
+            Thread.Sleep(1000);
+            
+            label1.Text = "Orion Mythology";
+            label1.ForeColor = Color.White;
+            label1.BackColor = Color.Black;
+            label1.Font = new Font("Viner Hand ITC", 27, FontStyle.Bold);
+            label2.Visible = true;
+            label2.Text = "";
+            label2.ForeColor = Color.White;
+            label2.BackColor = Color.Black;
+            label2.Font = new Font("Comic Sans MS", 16, FontStyle.Regular);
+            
+            label1.Visible = true;
+            this.Refresh();
+
+            label2.Text = "I";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In G";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Gr";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Gre";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Gree";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek m";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek my";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek myt";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek myth";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mytho";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythol";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mytholo";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mytholog";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology,";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, O";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Or";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Ori";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orio";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion w";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion wa";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a g";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a gi";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a gia";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a gian";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant h";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant hu";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant hun";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant hunt";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant hunts";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsm";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsma";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+                "w";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+                "wh";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+                "who";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+                "whom";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+                "whom Z";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+                "whom Ze";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+                "whom Zeu";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+                "whom Zeus";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus p";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus pl";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus pla";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus plac";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus place";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed a";
+            Thread.Sleep(100);
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed am";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed amo";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed amon";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among t";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among th";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the s";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the st";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the sta";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the star";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars a";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as t";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as th";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the c";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the co";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the con";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the cons";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the const";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the conste";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the constel";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the constell";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the constella";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the constellat";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the constellati";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the constellatio";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the constellation";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the constellation o";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the constellation of";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the constellation of O";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the constellation of Or";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the constellation of Ori";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the constellation of Orio";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the constellation of Orion";
+            Thread.Sleep(100);
+            this.Refresh();
+            label2.Text = "In Greek mythology, Orion was a giant huntsman " +
+            "whom Zeus placed among the stars as the constellation of Orion.";
+            Thread.Sleep(100);
+            this.Refresh();
+            //appearing text
         }
     }
 }
