@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using System.Media;
 
 /// <summary>
 /// Created By: Andrew Barber
@@ -43,6 +44,9 @@ namespace InteractiveGreetingCard
             label1.BackColor = Color.Black;
             label1.Font = new Font("Viner Hand ITC", 27, FontStyle.Bold);
             label2.Visible = false;
+
+            SoundPlayer player = new SoundPlayer(Properties.Resources.BakerStreet);
+            player.Play();
 
             for (int i = 0; i <= 100; i++)
             {
